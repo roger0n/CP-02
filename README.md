@@ -2,11 +2,7 @@
 ## Turma: 1ESA - FIAP
 ## Integrantes
 ### Augusto Ferreira Rogel de Souza
-### Caio Alexandre dos Santos
-### Italo Caliari Silva
-### Leandro do Nascimento Souza
 ### Mauro Carlos Maia Neto
-### Raul Gustavo Elias Cunha
 #
 
 ## Tecnologias
