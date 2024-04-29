@@ -68,6 +68,12 @@ body {
   font-weight: 700;
 }
 
+.navbar {
+  color: var(--white);
+  text-decoration: none;
+  padding: 0px 50px 10px 0px;
+}
+
 .navbar a {
   position: relative;
   font-size: 18px;
@@ -77,13 +83,17 @@ body {
   margin-left: 40px;
 }
 
-.navbar a::before {
-  content: '';
+.navbar a::after {
+  content: " ";
   position: absolute;
-  top: 100%;
   left: 0;
-  width: 100%;
-  height: 2px;
-  background: var(--white);
+  width: 0%;
+  height: 4px;
+  background-color: var(--white);
+  bottom: 0;
+  transition: 0.5s ease-in-out;
+}
 
+.navbar a:hover::after {
+  width: 100%;
 }
