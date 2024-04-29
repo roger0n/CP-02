@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./assets/index.css" />
+  <link rel="shortcut icon" href="images/logo.jpg" type="image/x-icon" />
+  <title>Vinheria Agnello</title>
+</head>
+
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">Agnello</a>
+
+    <nav class="navbar">
+      <a href="index.html">Inicio</a>
+      <a href="adega.html">Adega</a>
+      <a href="vinhos.html">Vinhos</a>
+      <a href="compras.html">Compras</a>
+      <a href="sobre_nos.html">Sobre nós</a>
+    </nav>
+  </header>
+  <section>
+    <div class="slogan">
+      <b>
+        <p>
+          A Vinheria Agnello está em São Paulo a mais de 15 anos oferencendo o
+          melhor do vinho para você!
+        </p>
+      </b>
+      <img class="vinheria_principal" src="images/principal_vinheria.jpg" alt="foto da vinheria" width="600px"
+        height="400px">
+    </div>
+    <div class="apresentacao">
+      <p>
+        No nosso site você encontra informações sobre nossa adega e seu
+        sistema de armazenamento, os vinhos que possuímos e suas descrições,
+        uma aba para realizar suas compras e pode saber um pouco mais sobre a
+        nossa história.
+      </p>
+      <br>
+    </div>
+    <div class="cadastro">
+      <form>
+        <fieldset>
+          <legend><b>Cadastre-se no site da Vinheria Agnello!</b></legend>
+          <br />
+          <label for="nome"><b>Nome:</b></label>
+          <input type="text" name="nome" placeholder="Digite seu nome..." /><br /><br />
+
+          <label for="nasc"><b>Data de nascimento (dd/mm/aaaa):</b></label>
+          <input type="text" name="nasc" placeholder="Digite sua data de nascimento..." /><br /><br />
+
+          <label for="email"><b>Email:</b></label>
+          <input type="text" name="email" placeholder="Digite seu email..." /><br /><br />
+
+          <label for="telefone"><b>Telefone:</b></label>
+          <input type="text" name="telefone" placeholder="Digite seu telefone..." /><br /><br />
+
+          <label>Qual seu nível de conhecimento sobre vinhos?</label><br />
+          <input type="radio" name="nivel" value="novato" />Sou completamente
+          novato no mundo dos vinhos. <br />
+          <input type="radio" name="nivel" value="basico" />Conheço o básico
+          sobre vinhos. <br />
+          <input type="radio" name="nivel" value="intermediario" />Conheço
+          bastante, mas não sou nenhum especialista. <br />
+          <input type="radio" name="nivel" value="especialista" />Sou um
+          especialista sobre vinhos. <br /><br />
+
+          <button type="submit">Enviar cadastro</button>
+          <button type="reset">Limpar</button>
+        </fieldset>
+      </form>
+    </div>
+  </section>
+  <hr>
+
+  <footer>
+    <img class="rede_social" src="icons/icon_instagram.png" alt="instagram">@vinheria_agnello
+    <img class="rede_social" src="icons/icon_x.jpg" alt="x">@vinheria_agnello
+  </footer>
+</body>
+
+</html>

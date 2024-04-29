@@ -1,0 +1,93 @@
+:root {
+    --white: #fff;
+    --black: #000;
+    --header: #261E1C;
+    --background: #BFAC9B;
+}
+
+* {
+    margin-left: 0;
+    margin-right: 0;
+    text-decoration: none;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--background);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+main {
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.foto__vinho {
+    width: 350px;
+    height: 350px;
+}
+
+.vinho__carraro {
+    width: 80px;
+    height: 350px;
+}
+
+.rede_social {
+    width: 20px;
+    height: 20px;
+    margin-top: 35px;
+    margin-right: 7px;
+    margin-left: 20px;
+}
+
+.header {
+    background-color: var(--header);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 100;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 32px;
+    color: var(--white);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: var(--white);
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.navbar a::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--white);
+
+}
+
+iframe.video_vinhos {
+    margin-top: 80px;
+}
