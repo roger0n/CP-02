@@ -25,3 +25,25 @@
   dos vinhos descritos na página Vinhos.</p>
 
 <p><b>Sobre nós:</b> página dedicada a contar um pouco sobre a história da Vinheria Agnello.</p>
+
+<p>Estilos CSS para o Vinheria Agnello
+Este arquivo contém os estilos CSS utilizados no website da Vinheria Agnello, uma loja de vinhos especializada em oferecer uma experiência única aos seus clientes. Abaixo está uma breve descrição de cada seção do CSS:</p>
+
+<p><b>:root :</b>
+Define variáveis de cor para reutilização em todo o CSS, proporcionando uma maneira consistente de manter a paleta de cores.</p>
+
+<p><b>* :</b>Define estilos padrão para todos os elementos HTML, como remoção de margens, remoção de sublinhado de links e cores de texto.</p>
+
+<p><b>section :</b>Define estilos para as seções do website, centralizando o conteúdo na página e alinhando-o verticalmente.</p>
+
+<p><b>body :</b>Define estilos gerais do corpo do documento, incluindo a cor de fundo, a família de fontes e o alinhamento do texto.</p>
+
+<p><b>.foto__adega :</b>Estiliza a imagem da adega, definindo suas dimensões e adicionando bordas arredondadas para uma apresentação mais agradável.</p>
+
+<p><b>.descricao_adega :</b>Define o estilo do texto que descreve a adega, ajustando o tamanho da fonte e as margens para uma melhor legibilidade.</p>
+
+<p><b>.rede_social :</b>Define o estilo dos ícones de rede social no rodapé, especificando suas dimensões e margens para posicionamento adequado.</p>
+
+<p><b>.header e .logo :</b>Estiliza o cabeçalho do site, incluindo a cor de fundo, a posição fixa na parte superior da página e o estilo do logotipo.</p>
+
+<p><b>.navbar e .navbar a :</b>Estiliza a barra de navegação, definindo a cor do texto, espaçamento e transição suave para realçar o link atualmente selecionado.</p>
